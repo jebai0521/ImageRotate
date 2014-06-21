@@ -21,6 +21,8 @@
 		7D344B57195305F400724E87 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D344B39195305F300724E87 /* UIKit.framework */; };
 		7D344B5F195305F400724E87 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7D344B5D195305F400724E87 /* InfoPlist.strings */; };
 		7D344B61195305F400724E87 /* ImageRotateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D344B60195305F400724E87 /* ImageRotateTests.m */; };
+		7DFE47641953062200C1A510 /* UIImage+Rotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DFE47631953062200C1A510 /* UIImage+Rotate.m */; };
+		7DFE4766195306CA00C1A510 /* abc.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7DFE4765195306CA00C1A510 /* abc.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		7D344B5C195305F400724E87 /* ImageRotateTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ImageRotateTests-Info.plist"; sourceTree = "<group>"; };
 		7D344B5E195305F400724E87 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7D344B60195305F400724E87 /* ImageRotateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageRotateTests.m; sourceTree = "<group>"; };
+		7DFE47621953062200C1A510 /* UIImage+Rotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Rotate.h"; sourceTree = "<group>"; };
+		7DFE47631953062200C1A510 /* UIImage+Rotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Rotate.m"; sourceTree = "<group>"; };
+		7DFE4765195306CA00C1A510 /* abc.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = abc.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +87,9 @@
 		7D344B29195305F300724E87 = {
 			isa = PBXGroup;
 			children = (
+				7DFE4765195306CA00C1A510 /* abc.jpg */,
+				7DFE47621953062200C1A510 /* UIImage+Rotate.h */,
+				7DFE47631953062200C1A510 /* UIImage+Rotate.m */,
 				7D344B3B195305F300724E87 /* ImageRotate */,
 				7D344B5A195305F400724E87 /* ImageRotateTests */,
 				7D344B34195305F300724E87 /* Frameworks */,
@@ -228,6 +236,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DFE4766195306CA00C1A510 /* abc.jpg in Resources */,
 				7D344B4E195305F300724E87 /* Images.xcassets in Resources */,
 				7D344B40195305F300724E87 /* InfoPlist.strings in Resources */,
 				7D344B49195305F300724E87 /* Main.storyboard in Resources */,
@@ -251,6 +260,7 @@
 			files = (
 				7D344B4C195305F300724E87 /* ViewController.m in Sources */,
 				7D344B46195305F300724E87 /* AppDelegate.m in Sources */,
+				7DFE47641953062200C1A510 /* UIImage+Rotate.m in Sources */,
 				7D344B42195305F300724E87 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -456,6 +466,7 @@
 				7D344B66195305F400724E87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7D344B67195305F400724E87 /* Build configuration list for PBXNativeTarget "ImageRotateTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +475,7 @@
 				7D344B69195305F400724E87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -10,4 +10,6 @@
 
 @interface UIImage (Rotate)
 
+- (UIImage*) rotateDegree:(CGFloat)degree;
+
 @end
